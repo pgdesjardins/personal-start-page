@@ -1,5 +1,5 @@
 export default {
-  name: "Document Clouds --222",
+  name: "Document Clouds",
   links: [
     { title: "Google Drive", url: "https://drive.google.com/" },
     { title: "Microsoft OneDrive", url: "https://onedrive.live.com/" },
