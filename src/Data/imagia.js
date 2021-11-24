@@ -1,3 +1,6 @@
+const evidensIcon =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACD0lEQVQ4jYWTT2gTQRTGfzPJpjWR6CFG8SKKgu0ltlQtKLX1Eg2KUhT04lE8CPXixdP2pEcPivTUi0KNKDYrFf9ASCEBIYKVNDVBsBdJKS2FaCRsk50edrvddAt+lxlm3rzv+957I/BCKYkQACdI3eynOHuc5d8r9PRX+FWp02zkgSYgANXxFl1JIMqzdzeY+vKBshqjpBIAzPw8Q2+iD7gNxPBB1yUAL/JXyJS+Mbva67kNePb7gTEg6qhwpQt0JTEWvvO2lASgqDSUEq41hoOgBHASOOhXMT3fR2Y+A0A6bbPq2aAvbujSMeDOpjrpBgmuoiih65K1I7YlfaRFurgHoxIjt3SYwup1Tp07C7QdNR4fb+biaKEyP8xD3E80SKsAkcpDpLxGq/WXXZHnhLq+MnRgN6FQFdNc2EpgexW8r35EWRGsxmWIvESIvWjBi7RXmqQG6w7VA2ASqAHYUoVQgGJyLoklGoTjNVAjFGunSR5dJjVYR88GnVbngR4nmfQXE2CmamCUpwDhFnQLcWAcu5WyM8NmcMs0UNYioPi8Jh2rEugCbgEF7IncNo1ZpyOZ0iM+LSomjPA29vOAd8jw9xlABsJoWoG7o4+R8g+WNQ0sAQPABPZ0tv0JcjkLEERjr7k32mZ93aS7+ynN5j7gAvAE+LcjqZffWV8Bw/8L3gn2v9C0ASDinnV+KhcbtNawtXud8n4AAAAASUVORK5CYII=";
+
 export default {
   name: "Imagia",
   links: [
@@ -20,8 +23,7 @@ export default {
     {
       title: "Evidens (local)",
       url: "https://0.0.0.0:8082/",
-      icon:
-        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACD0lEQVQ4jYWTT2gTQRTGfzPJpjWR6CFG8SKKgu0ltlQtKLX1Eg2KUhT04lE8CPXixdP2pEcPivTUi0KNKDYrFf9ASCEBIYKVNDVBsBdJKS2FaCRsk50edrvddAt+lxlm3rzv+957I/BCKYkQACdI3eynOHuc5d8r9PRX+FWp02zkgSYgANXxFl1JIMqzdzeY+vKBshqjpBIAzPw8Q2+iD7gNxPBB1yUAL/JXyJS+Mbva67kNePb7gTEg6qhwpQt0JTEWvvO2lASgqDSUEq41hoOgBHASOOhXMT3fR2Y+A0A6bbPq2aAvbujSMeDOpjrpBgmuoiih65K1I7YlfaRFurgHoxIjt3SYwup1Tp07C7QdNR4fb+biaKEyP8xD3E80SKsAkcpDpLxGq/WXXZHnhLq+MnRgN6FQFdNc2EpgexW8r35EWRGsxmWIvESIvWjBi7RXmqQG6w7VA2ASqAHYUoVQgGJyLoklGoTjNVAjFGunSR5dJjVYR88GnVbngR4nmfQXE2CmamCUpwDhFnQLcWAcu5WyM8NmcMs0UNYioPi8Jh2rEugCbgEF7IncNo1ZpyOZ0iM+LSomjPA29vOAd8jw9xlABsJoWoG7o4+R8g+WNQ0sAQPABPZ0tv0JcjkLEERjr7k32mZ93aS7+ynN5j7gAvAE+LcjqZffWV8Bw/8L3gn2v9C0ASDinnV+KhcbtNawtXud8n4AAAAASUVORK5CYII="
+      icon: evidensIcon
     },
     {
       title: "Mongo Express (local)",
@@ -84,6 +86,26 @@ export default {
         "https://gitlab.com/imagia/DevOps/argocd-apps/hq/-/blob/master/hq-prod/evidens-dev/evidens/values.yaml",
       icon:
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtElEQVQ4jU2TT2hcZRTFf/f7vvdeJxObgt2UgknTmSb+C6gLwRadUWkqumjAQbqouNCNWJduna4E/0C2gouSnZOl0G0GXIgg1U2z0UpMXLZWifkz773vOy6mk7i4cLicc7n3cA/9Pg5g5+X59s7y0y2Afh8nyY4LkzCArcsL57Zffeb8hOc+HXYcQPLZB6rihwCvPOox1gAw7HY8gIv2kaz+ZMILNhzWAr9jtgJWCpwNhxEDSYBhJsBqAIkrIAfQHQ5rB7DdbS2a2Tzoya1OewmQ+jdtvIEYY/i9u7Bg0A5mF7Zebz0HEADM+6tNby7J2I/pNeAX7g4CN6nB2Lz7VBBUfzp7Z8q7zIA6hivAzwEgHrJcFkoIYu17wFe2vlmyPnFgswTYqulWUsJAJW8JPrfR13OL5Z38R9uzhpwEaPeBfVftcej82MUUUTElP32aFYGzZJYaKk88W10M7rH82vQlO6mfUoXILRO+zN7eP3T4IAASxvRMIj9dkaJhqLIXrJmKsOwo9SYN6jiLYkVKlYlmHO2lWO1Wqndr1f+mWMZGPEzRlEakNItUEDnkfYcjAwt2Bmdnqakgm1KW5ViSghIhK3B5UzkjsLPUnMGZmU8IF6qHl9JB/Y0PLnCOXDOMvLDipEAmJOXTwglLpyhtnsxnLqQy3QqhfPHo1cq19ns+Z9VVNqM7Gh38Zf7+tvNm6PHZFE+cUnLPuyJl+kdV/Dhcv7cG4CRMg57P3/31Vv336CVlfG9LrsibyAVq86hoYG7JFQrph/p+uhiu31vToOfV7zvGQZFpoxMA1MPH9fYXWm3r4cqiHlxdlFbbqr5tfbnRGT+eNjphEjKOAKBBzx/h263L+zcu/LZ/Y+EP3T7/xuRUDXr+USZMkh1vII2FkmmABzhYnX/i4LO5ubGQ4+H/i/p/D6l15+tCNJQAAAAASUVORK5CYII="
+    },
+    {
+      title: "Evidens (DEV)",
+      url: "https://evidens.dev.hq.imagiaops.com",
+      icon: evidensIcon
+    },
+    {
+      title: "Evidens (QA)",
+      url: "https://evidens.qa.hq.imagiaops.com",
+      icon: evidensIcon
+    },
+    {
+      title: "Evidens (PRE-PROD)",
+      url: "https://evidens.prod.hq.imagiaops.com",
+      icon: evidensIcon
+    },
+    {
+      title: "Onboarding DOC",
+      url:
+        "https://imagia.atlassian.net/wiki/spaces/RD/pages/4274388993/Onboarding"
     }
   ]
 };
