@@ -58,7 +58,7 @@ export default {
     },
     {
       title: "JumpCloud User Portal",
-      url: "ttps://console.jumpcloud.com/userconsole#/",
+      url: "https://console.jumpcloud.com/userconsole#/",
       icon:
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABf0lEQVQ4je2RT0tUcRSGn3PuvWNOGpqKjutsYpRAEcUPoIKgC4sIWvgZWrjvU7RwJfgBwkYQIWhlEISKGcwg4z908M5lfouGnMnp3uNGwcBF+3yXL+/7nMM5cC+5y3xnpsOV8oSHTiVQ89EPM729pX8G5MPyFMgykLkOfTVsmUQKdee+vBocvLzJ+reLq1HUrvZnWpG3Zpax6wmNOB73RMYDlZ/prs5FYOmvDVbD8LmYjakwdpnEC9V6PfWoJcXDIMVOJWT9sER7qoWXA1n62tr2MHtvnn2e7e4vyMfobEQTXTHIGZAv7fPp+IhcVzevn+VY2t3mexQBMD+Q5cXTLIkZwBaevfHFdMIgCxAnCUXncI0GRee4aDZJ+wEqgoqQDvzbRxuSmFEVbBehLEB48YtmEqMieCJsnp1yWqshIgiwXQkpOHcDOYnFfvjfejKbo+fnC7HY5MZBKSi6Kp4o1UadtYN9AFQUA/aiCo8ftPKko+O3ia3P9fTv3PXF/01Xf3KZvbmaHXcAAAAASUVORK5CYII="
     },

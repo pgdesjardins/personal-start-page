@@ -5,13 +5,15 @@ import documentCloud from "./documentClouds";
 import typescript from "./typescript";
 import pratWhithney from "./pratWhithney";
 import hmh from "./hmh";
+import carrerJourney from "./carrerJourney";
 
 export default [
   onlineTools,
-  typescript,
   tekInternal,
-  imagia,
-  documentCloud
+  carrerJourney,
+  // imagia,
+  documentCloud,
   // pratWhithney,
-  // hmh
+  // hmh,
+  typescript
 ];
