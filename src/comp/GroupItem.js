@@ -3,7 +3,15 @@ import React from "react";
 const GroupItem = ({ url, title, desc = undefined, icon = undefined }) => {
   return (
     <li class="list-group-item">
-      {icon && <img src={icon} alt={title} style={{ marginRight: ".3em" }} />}
+      {icon && (
+        <img
+          width="16"
+          height="16"
+          src={icon}
+          alt={title}
+          style={{ marginRight: ".3em" }}
+        />
+      )}
       <a href={url}>{title}</a>
       {desc && (
         <small
