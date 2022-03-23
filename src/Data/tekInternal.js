@@ -34,6 +34,10 @@ export default {
       title: "Udemy Enterprise",
       url: "https://teksystems.udemy.com/organization/home/"
     },
-    { title: "Azure Devops", url: "https://dev.azure.com/gdesjard/" }
+    {
+      title: "Azure Devops",
+      url: "https://dev.azure.com/gdesjard/",
+      icon: icon.msdevops
+    }
   ]
 };
