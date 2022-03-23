@@ -1,4 +1,5 @@
 import icon from "./icons";
+
 export default {
   name: "Carrer Journey",
   links: [
