@@ -43,6 +43,10 @@ export default {
       url:
         "https://allegiscloud.sharepoint.com/teams/FullStackTDC/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fteams%2FFullStackTDC%2FShared%20Documents%2FDefining%20the%20Path&FolderCTID=0x012000C769B6A75B1E47489265CDD0C862CA00",
       icon: icon.sharepoint
+    },
+    {
+      title: "temporary DEV env",
+      url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io:8081/"
     }
   ]
 };
