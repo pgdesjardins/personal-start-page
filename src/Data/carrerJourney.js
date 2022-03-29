@@ -45,8 +45,12 @@ export default {
       icon: icon.sharepoint
     },
     {
-      title: "temporary DEV env",
-      url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io:8081/"
+      title: "DEV env",
+      url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
+    },
+    {
+      title: "K8 Argo DEV",
+      url: "https://argocd.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
     }
   ]
 };
