@@ -27,6 +27,12 @@ export default {
       icon: icon.figma
     },
     {
+      title: "Figma (Vanessa flow #2)",
+      url:
+        "https://www.figma.com/file/gUoktmwM5FEJGCqt7xQcgQ/Higher-Fi?node-id=0%3A1",
+      icon: icon.figma
+    },
+    {
       title: "OneNote - Technical Notes",
       url:
         "https://allegiscloud.sharepoint.com/teams/FullStackTDC/_layouts/15/Doc.aspx?sourcedoc={2aefb1cd-2b8b-41c5-aafe-51aba2a2e193}&action=edit&wd=target%28Links.one%7C68183bf2-8c4e-49be-9385-2f1fb0cc5b94%2FTODOs%7C0678627e-e49b-4992-b836-86fcfc45b741%2F%29",
