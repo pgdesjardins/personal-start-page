@@ -57,6 +57,21 @@ export default {
     {
       title: "K8 Argo DEV",
       url: "https://argocd.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
+    },
+    {
+      title: "CJM-LZ-DEVTEST",
+      url:
+        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-DEVTEST-001"
+    },
+    {
+      title: "CJM-LZ-QA",
+      url:
+        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-QA-001"
+    },
+    {
+      title: "CJM-LZ-UAT",
+      url:
+        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-UAT-001"
     }
   ]
 };
