@@ -1,8 +1,19 @@
 import React from "react";
 
-const GroupItem = ({ url, title, desc = undefined, icon = undefined }) => {
+const GroupItem = ({
+  url,
+  title,
+  desc = undefined,
+  icon = undefined,
+  isObsolte = false
+}) => {
+  const style = isObsolte
+    ? {
+        textDecoration: "line-through"
+      }
+    : {};
   return (
-    <li class="list-group-item">
+    <li className="list-group-item">
       {icon && (
         <img
           width="16"
@@ -12,10 +23,12 @@ const GroupItem = ({ url, title, desc = undefined, icon = undefined }) => {
           style={{ marginRight: ".3em" }}
         />
       )}
-      <a href={url}>{title}</a>
+      <a href={url} style={style}>
+        {title}
+      </a>
       {desc && (
         <small
-          class="text-muted font-weight-light"
+          className="text-muted font-weight-light"
           style={{ marginLeft: ".5em" }}
         >
           {desc}

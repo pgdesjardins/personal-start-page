@@ -10,8 +10,14 @@ export default {
       icon: icon.msteams
     },
     {
-      title: "Azure DevOps",
+      title: "Azure DevOps (old)",
       url: "https://dev.azure.com/CareerJourneyMapSystem/CJE-MVP",
+      icon: icon.msdevops,
+      isObsolte: true
+    },
+    {
+      title: "Azure DevOps (current)",
+      url: "https://allegis-is.visualstudio.com/TGS_CJEMVP",
       icon: icon.msdevops
     },
     {
@@ -30,6 +36,12 @@ export default {
       title: "Figma (Vanessa flow #2)",
       url:
         "https://www.figma.com/file/gUoktmwM5FEJGCqt7xQcgQ/Higher-Fi?node-id=0%3A1",
+      icon: icon.figma
+    },
+    {
+      title: "Figma (Val)",
+      url:
+        "https://www.figma.com/file/IhIl6K3wh8fQ3HYhCnJ6dJ/Career-Journey---Curator?node-id=0%3A1",
       icon: icon.figma
     },
     {

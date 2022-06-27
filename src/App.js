@@ -4,8 +4,8 @@ import Group from "./comp/Group";
 
 export default function App() {
   return (
-    <div class="container-fluid">
-      <div class="row">
+    <div className="container-fluid">
+      <div className="row">
         {data.map((group) => (
           <Group {...group} key={group.name} />
         ))}
