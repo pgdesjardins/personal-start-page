@@ -6,7 +6,8 @@ import typescript from "./typescript";
 // import pratWhithney from "./pratWhithney";
 // import hmh from "./hmh";
 import carrerJourney from "./carrerJourney";
-import vuhl from "./vuhl";
+// import vuhl from "./vuhl";
+import centene from "./centene";
 
 export default [
   onlineTools,
@@ -17,5 +18,6 @@ export default [
   // pratWhithney,
   // hmh,
   typescript,
-  vuhl
+  // vuhl,
+  centene
 ];
