@@ -7,18 +7,18 @@ import typescript from "./typescript";
 // import hmh from "./hmh";
 import carrerJourney from "./carrerJourney";
 // import vuhl from "./vuhl";
-import centene from "./centene";
+// import centene from "./centene";
+import sentinel from "./sentinel";
 
 export default [
   onlineTools,
   tekInternal,
-  centene,
+  sentinel,
   carrerJourney,
   // imagia,
   documentCloud,
   // pratWhithney,
   // hmh,
-  typescript,
+  typescript
   // vuhl,
-  centene
 ];
