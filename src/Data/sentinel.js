@@ -22,6 +22,11 @@ export default {
     {
       title: "DEV",
       url: "https://sentinel-dev.svcs.teksystems.com/"
+    },
+    {
+      title: "Azure Subscription",
+      url:
+        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-MVP-LZ-DEVTEST-001/overview"
     }
   ]
 };
