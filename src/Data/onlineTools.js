@@ -17,6 +17,7 @@ export default {
     },
     { title: "codesandbox", url: "https://codesandbox.io/" },
     { title: "bundlephobia", url: "https://bundlephobia.com/" },
+    { title: "npmTrends", url: "https://npmtrends.com/" },
     { title: "stackblitz", url: "https://stackblitz.com/" }
   ]
 };
