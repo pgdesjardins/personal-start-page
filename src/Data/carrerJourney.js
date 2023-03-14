@@ -62,28 +62,29 @@ export default {
         "https://allegiscloud.sharepoint.com/teams/FullStackTDC/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fteams%2FFullStackTDC%2FShared%20Documents%2FDefining%20the%20Path&FolderCTID=0x012000C769B6A75B1E47489265CDD0C862CA00",
       icon: icon.sharepoint
     },
-    {
-      title: "DEV env",
-      url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
-    },
-    {
-      title: "K8 Argo DEV",
-      url: "https://argocd.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
-    },
-    {
-      title: "CJM-LZ-DEVTEST",
-      url:
-        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-DEVTEST-001"
-    },
-    {
-      title: "CJM-LZ-QA",
-      url:
-        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-QA-001"
-    },
-    {
-      title: "CJM-LZ-UAT",
-      url:
-        "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-UAT-001"
-    }
+    { title: "DEV env", url: "http://cjm.centralus.cloudapp.azure.com/" }
+    // {
+    //   title: "DEV env",
+    //   url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
+    // },
+    // {
+    //   title: "K8 Argo DEV",
+    //   url: "https://argocd.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
+    // },
+    // {
+    //   title: "CJM-LZ-DEVTEST",
+    //   url:
+    //     "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-DEVTEST-001"
+    // },
+    // {
+    //   title: "CJM-LZ-QA",
+    //   url:
+    //     "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-QA-001"
+    // },
+    // {
+    //   title: "CJM-LZ-UAT",
+    //   url:
+    //     "https://portal.azure.com/#@ALLEGISCLOUD.onmicrosoft.com/resource/subscriptions/d8d26078-70bc-41b0-9a12-9e806fd5c2d6/resourceGroups/rg-CJM-LZ-UAT-001"
+    // }
   ]
 };
