@@ -62,7 +62,10 @@ export default {
         "https://allegiscloud.sharepoint.com/teams/FullStackTDC/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fteams%2FFullStackTDC%2FShared%20Documents%2FDefining%20the%20Path&FolderCTID=0x012000C769B6A75B1E47489265CDD0C862CA00",
       icon: icon.sharepoint
     },
-    { title: "DEV env", url: "http://cjm.centralus.cloudapp.azure.com/" }
+    { title: "DEV env", url: "https://cjedev.centralus.cloudapp.azure.com/" },
+    { title: "QA env", url: "https://cjeqa.centralus.cloudapp.azure.com/" },
+    { title: "UAT env", url: "https://cjeuat.centralus.cloudapp.azure.com/" }
+    // { title: "DEV env", url: "http://cjm.centralus.cloudapp.azure.com/" }
     // {
     //   title: "DEV env",
     //   url: "http://cjemvp.4cc5e0e41ffb47dbbbb8.eastus.aksapp.io/"
