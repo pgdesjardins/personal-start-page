@@ -9,12 +9,12 @@ export default {
         "https://teams.microsoft.com/_#/conversations/Team%20Voltage?threadId=19:4578c3de3bf64df6a1b0f1bb8bf35651@thread.tacv2&ctx=channel",
       icon: icon.msteams
     },
-    {
-      title: "Azure DevOps (old)",
-      url: "https://dev.azure.com/CareerJourneyMapSystem/CJE-MVP",
-      icon: icon.msdevops,
-      isObsolte: true
-    },
+    // {
+    //   title: "Azure DevOps (old)",
+    //   url: "https://dev.azure.com/CareerJourneyMapSystem/CJE-MVP",
+    //   icon: icon.msdevops,
+    //   isObsolte: true
+    // },
     {
       title: "Azure DevOps (current)",
       url: "https://allegis-is.visualstudio.com/TGS_CJEMVP",

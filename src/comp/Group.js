@@ -6,9 +6,11 @@ const Group = ({ name, links }) => {
   return (
     <div className="col">
       <GroupName name={name} />
-      {links.map((link) => (
-        <GroupItem {...link} key={link.url} />
-      ))}
+      <ul>
+        {links.map((link) => (
+          <GroupItem {...link} key={link.url} />
+        ))}
+      </ul>
     </div>
   );
 };
