@@ -16,6 +16,10 @@ export default {
       title: "Azure Devops Imagia-ReactTS",
       url: "https://dev.azure.com/gdesjard/Imagia-ReactTS",
       desc: "POC/Trainning Project"
+    },
+    {
+      title: "Testing Library Cheatsheet",
+      url: "https://testing-library.com/docs/react-testing-library/cheatsheet/"
     }
   ]
 };
