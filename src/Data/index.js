@@ -8,11 +8,13 @@ import typescript from "./typescript";
 import carrerJourney from "./carrerJourney";
 // import vuhl from "./vuhl";
 // import centene from "./centene";
+import rivian from "./rivian";
 import sentinel from "./sentinel";
 
 export default [
   onlineTools,
   tekInternal,
+  rivian,
   sentinel,
   carrerJourney,
   // imagia,
