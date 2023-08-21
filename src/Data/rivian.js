@@ -2,8 +2,12 @@ export default {
   name: "Rivian",
   links: [
     { title: "FE (local)", url: "http://localhost:3000/" },
-    { title: "Swagger (local)", url: "http://localhost:8000/api" },
+    { title: "Swagger (local)", url: "http://localhost:8000/api/v1" },
     { title: "Mongo Express (local)", url: "http://localhost:8081/" },
+    {
+      title: "Active MQ (local)",
+      url: "http://localhost:8161/admin/queues.jsp"
+    },
     {
       title: "JIRA Board (Pod1)",
       url:
