@@ -14,7 +14,7 @@ import sentinel from "./sentinel";
 export default [
   onlineTools,
   tekInternal,
-  rivian,
+  // rivian,
   // sentinel,
   // carrerJourney,
   // imagia,
