@@ -9,15 +9,21 @@ export default {
     { title: "snipplr", url: "http://snipplr.com/users/gdesjardins/" },
     {
       title: "imageshack.us",
-      url: "http://imageshack.us/homepage/?user=pgdesjardins"
+      url: "http://imageshack.us/homepage/?user=pgdesjardins",
     },
     {
       title: "browserstack",
-      url: "http://www.browserstack.com/user/dashboard"
+      url: "http://www.browserstack.com/user/dashboard",
     },
     { title: "codesandbox", url: "https://codesandbox.io/" },
     { title: "bundlephobia", url: "https://bundlephobia.com/" },
     { title: "npmTrends", url: "https://npmtrends.com/" },
-    { title: "stackblitz", url: "https://stackblitz.com/" }
-  ]
+    { title: "stackblitz", url: "https://stackblitz.com/" },
+    {
+      title: "stackblitz",
+      url: "https://asciiflow.com",
+      desc: "ASCII Diagram",
+    },
+    { title: "delphitools", url: "hhttps://tools.rmv.fyi" },
+  ],
 };
